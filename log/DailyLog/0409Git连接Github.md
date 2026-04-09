@@ -15,26 +15,25 @@
 ![6.png](../picture/0409/6.png)
 ## 1.5 git简单配置
 将 name 最好和 GitHub 上边的一样，email 是一定要是注册 GitHub 的那个邮箱地址
-这两个的顺序可以颠倒，没有固定的顺序。
-
-git config --global user.name “gitname”
-
+这两个的顺序可以颠倒，没有固定的顺序。  
+git config --global user.name “gitname”  
 git config --global user.email “git邮箱”
+
 ![7.png](../picture/0409/7.png)
 ## 1.6 克隆仓库
 将我们的github库克隆下来到本地电脑中，方便以后进行上传代码。
-![8.png](../picture/0409/8.png)
 
+![8.png](../picture/0409/8.png)  
 接下来我们就开始选择文件存储地方了，在本地电脑中找到存储文件的地方，然后右键选择 Git Bash Here
+
 ![9.png](../picture/0409/9.png)
 
 在终端输入 git clone 地址（这个地址就是刚刚库那个Code的上代码地址）
 ![10.png](../picture/0409/10.png)
 
 ## 1.7 git提交修改到github
-git add . → 把修改「放进购物车」
-
-git commit -m "..." → 把购物车里的东西「打包并写个标签」
-
+git add . → 把修改「放进购物车」  
+git commit -m "..." → 把购物车里的东西「打包并写个标签」  
 git push origin main → 把这个打包好的包裹「寄到 GitHub 仓库」
+
 
