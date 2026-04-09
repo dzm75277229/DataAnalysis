@@ -27,7 +27,6 @@ git config --global user.email “git邮箱”
 在终端输入 git clone 地址（这个地址就是刚刚库那个Code的上代码地址）
 ![10.png](../picture/0409/10.png)
 ## 1.7 git提交修改到github
-
 git add . → 把修改「放进购物车」
 git commit -m "..." → 把购物车里的东西「打包并写个标签」
 git push origin main → 把这个打包好的包裹「寄到 GitHub 仓库」
